@@ -2,9 +2,8 @@ generic_fighter = {
 	category = air
 
 	roles = {
-		air_fighter
+		air_fighter  
 	}
-
 	priority = {
 		factor = 2000
 	}
@@ -67,8 +66,8 @@ generic_fighter = {
 			}
 			modifier = {
 				OR = {
-					any_subject_country = { check_variable = { resource_produced@rubber > 100 } }
-					resource_produced@rubber > 100
+					any_subject_country = { check_variable = { resource@rubber > 100 } }
+					resource@rubber > 100
 				}
 				factor = 0
 			}
@@ -112,8 +111,8 @@ generic_fighter = {
 				factor = 0 #let's not waste XP here
 			}
 			modifier = {
-				NOT = { any_subject_country = { check_variable = { resource_produced@rubber > 100 } } }
-				NOT = { resource_produced@rubber > 100 }
+				NOT = { any_subject_country = { check_variable = { resource@rubber > 100 } } }
+				NOT = { resource@rubber > 100 }
 				factor = 0
 			}
 		}
@@ -157,8 +156,8 @@ generic_fighter = {
 			}
 			modifier = {
 				OR = {
-					any_subject_country = { check_variable = { resource_produced@rubber > 100 } }
-					resource_produced@rubber > 100
+					any_subject_country = { check_variable = { resource@rubber > 100 } }
+					resource@rubber > 100
 				}
 				factor = 0
 			}
@@ -203,8 +202,8 @@ generic_fighter = {
 				factor = 0 #let's not waste XP here
 			}
 			modifier = {
-				NOT = { any_subject_country = { check_variable = { resource_produced@rubber > 100 } } }
-				NOT = { resource_produced@rubber > 100 }
+				NOT = { any_subject_country = { check_variable = { resource@rubber > 100 } } }
+				NOT = { resource@rubber > 100 }
 				factor = 0
 			}
 		}
