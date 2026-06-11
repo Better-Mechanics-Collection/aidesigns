@@ -19,7 +19,7 @@ generic_fighter = {
 		}
 
 		target_variant = {
-			match_value = 1000
+			match_value = 9999
 			type = small_plane_airframe_0
 			modules = {
 				fixed_main_weapon_slot = light_mg_4x
@@ -45,7 +45,7 @@ generic_fighter = {
 		}
 
 		target_variant = {
-			match_value = 2000
+			match_value = 9999
 			type = small_plane_airframe_1
 			modules = {
 				fixed_main_weapon_slot = {
@@ -76,7 +76,7 @@ generic_fighter = {
 		}
 
 		target_variant = {
-			match_value = 2000
+			match_value = 9999
 			type = small_plane_airframe_1
 			modules = {
 				fixed_main_weapon_slot = heavy_mg_4x
@@ -105,7 +105,7 @@ generic_fighter = {
 		}
 
 		target_variant = {
-			match_value = 3000
+			match_value = 9999
 			type = small_plane_airframe_2
 			modules = {
 				fixed_main_weapon_slot = heavy_mg_4x
@@ -134,7 +134,7 @@ generic_fighter = {
 		}
 
 		target_variant = {
-			match_value = 3000
+			match_value = 9999
 			type = small_plane_airframe_2
 			modules = {
 				fixed_main_weapon_slot = heavy_mg_4x
@@ -165,7 +165,7 @@ generic_fighter = {
 		}
 
 		target_variant = {
-			match_value = 4000
+			match_value = 9999
 			type = small_plane_airframe_3
 			modules = {
 				fixed_main_weapon_slot = {
@@ -210,7 +210,7 @@ generic_fighter = {
 		}
 
 		target_variant = {
-			match_value = 4000
+			match_value = 9999
 			type = small_plane_airframe_3
 			modules = {
 				fixed_main_weapon_slot = {
@@ -246,7 +246,7 @@ generic_fighter = {
 		}
 
 		target_variant = {
-			match_value = 4000
+			match_value = 9999
 			type = small_plane_airframe_4
 			modules = {
 				fixed_main_weapon_slot = {
