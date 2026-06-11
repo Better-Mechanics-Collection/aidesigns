@@ -2,8 +2,9 @@ generic_fighter = {
 	category = air
 
 	roles = {
-		air_fighter  
+		air_fighter
 	}
+
 	priority = {
 		factor = 2000
 	}
