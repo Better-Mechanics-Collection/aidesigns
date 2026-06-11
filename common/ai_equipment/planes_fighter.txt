@@ -56,8 +56,8 @@ generic_fighter = {
 				}
 				fixed_auxiliary_weapon_slot_1 = light_mg_4x
 				engine_type_slot = engine_2_1x
-				special_type_slot_1 = drop_tanks
-				special_type_slot_2 = armor_plate_small
+				special_type_slot_1 = fuel_tanks_small
+				special_type_slot_2 = empty
 			}
 		}
 	}
