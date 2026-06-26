@@ -1430,6 +1430,10 @@ generic_medium_tank_artillery = {
 	priority = {
 		factor = 500
 		modifier = { 
+			NOT = { has_design_based_on = medium_tank_chassis }
+			factor = 0
+		}
+		modifier = { 
 			is_eligible_for_improved_armor_production = no
 			factor = 0
 		}
@@ -1672,6 +1676,10 @@ generic_medium_tank_anti_air = {
 
 	priority = {
 		factor = 100
+		modifier = { 
+			NOT = { has_design_based_on = medium_tank_chassis }
+			factor = 0
+		}
 		modifier = { 
 			is_eligible_for_improved_armor_production = no
 			factor = 0
@@ -2049,6 +2057,10 @@ generic_medium_flame_tanks = {
 
 	priority = {
 		factor = 2000
+		modifier = { 
+			NOT = { has_design_based_on = medium_tank_chassis }
+			factor = 0
+		}
 		modifier = { 
 			is_eligible_for_armor_production = no
 			factor = 0
