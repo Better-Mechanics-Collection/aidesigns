@@ -827,7 +827,7 @@ generic_medium_tanks = {
 				main_armament_slot = tank_medium_cannon
 				turret_type_slot = tank_medium_three_man_tank_turret
 				suspension_type_slot = tank_christie_suspension
-				armor_type_slot = tank_welded_armor
+				armor_type_slot = tank_riveted_armor
 				engine_type_slot = tank_gasoline_engine
 				special_type_slot_1 = tank_radio_module
 				special_type_slot_2 = {
@@ -866,6 +866,10 @@ generic_medium_tanks = {
 					modifier = {
 						add = 5
 						num_of_military_factories > 120
+					}
+					modifier = {
+						add = 3
+						num_of_military_factories > 180
 					}
 				}
 			}
