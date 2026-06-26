@@ -1985,8 +1985,8 @@ generic_medium_flame_tanks = {
 				engine_type_slot = tank_gasoline_engine
 				special_type_slot_1 = wet_ammo_storage
 				special_type_slot_2 = dozer_blade
-				special_type_slot_3 = expanded_fuel_tank
-				special_type_slot_4 = expanded_fuel_tank
+				special_type_slot_3 = armor_skirts
+				special_type_slot_4 = smoke_launchers
 			}
 			upgrades = {
 				tank_nsb_engine_upgrade = {
@@ -2020,8 +2020,8 @@ generic_medium_flame_tanks = {
 				engine_type_slot = tank_gasoline_engine
 				special_type_slot_1 = wet_ammo_storage
 				special_type_slot_2 = dozer_blade
-				special_type_slot_3 = expanded_fuel_tank
-				special_type_slot_4 = expanded_fuel_tank
+				special_type_slot_3 = armor_skirts
+				special_type_slot_4 = smoke_launchers
 			}
 			upgrades = {
 				tank_nsb_engine_upgrade = {
