@@ -271,13 +271,7 @@ generic_light_tank_artillery = {
 			}
 			upgrades = {
 				tank_nsb_engine_upgrade = 0
-				tank_nsb_armor_upgrade = {
-					base = 0
-					modifier = {
-						add = 4
-						num_of_military_factories > 60
-					}
-				}
+				tank_nsb_armor_upgrade = 0
 			}
 		}
 	}
@@ -321,6 +315,14 @@ generic_light_tank_artillery = {
 					modifier = {
 						add = 5
 						num_of_military_factories > 120
+					}
+					modifier = {
+						add = 5
+						num_of_military_factories > 180
+					}
+					modifier = {
+						add = 3
+						num_of_military_factories > 240
 					}
 				}
 			}
@@ -366,6 +368,14 @@ generic_light_tank_artillery = {
 					modifier = {
 						add = 5
 						num_of_military_factories > 180
+					}
+					modifier = {
+						add = 3
+						num_of_military_factories > 240
+					}
+					modifier = {
+						add = 3
+						num_of_military_factories > 300
 					}
 				}
 			}
