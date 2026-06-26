@@ -1660,7 +1660,25 @@ generic_medium_tank_anti_air = {
 						has_doctrine = new_mobile_warfare
 					}
 				}
-				tank_nsb_armor_upgrade = 0
+				tank_nsb_armor_upgrade = {
+					base = 0
+					modifier = {
+						add = 4
+						num_of_military_factories > 60
+					}
+					modifier = {
+						add = 5
+						num_of_military_factories > 120
+					}
+					modifier = {
+						add = 5
+						num_of_military_factories > 180
+					}
+					modifier = {
+						add = 3
+						num_of_military_factories > 240
+					}
+				}
 			}
 		}
 
@@ -1695,7 +1713,29 @@ generic_medium_tank_anti_air = {
 						has_doctrine = new_mobile_warfare
 					}
 				}
-				tank_nsb_armor_upgrade = 0
+				tank_nsb_armor_upgrade = {
+					base = 0
+					modifier = {
+						add = 4
+						num_of_military_factories > 60
+					}
+					modifier = {
+						add = 5
+						num_of_military_factories > 120
+					}
+					modifier = {
+						add = 5
+						num_of_military_factories > 180
+					}
+					modifier = {
+						add = 3
+						num_of_military_factories > 240
+					}
+					modifier = {
+						add = 3
+						num_of_military_factories > 300
+					}
+				}
 			}
 		}
 
