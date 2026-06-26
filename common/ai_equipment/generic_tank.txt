@@ -2053,13 +2053,6 @@ generic_medium_flame_tanks = {
 			is_eligible_for_armor_production = no
 			factor = 0
 		}
-		modifier = {
-			factor = 0
-			OR = {
-				NOT = { has_subdoctrine_in_track = infantry }
-				NOT = { has_subdoctrine_in_track = operations }
-			}
-		}
 	}
 
 	basic_medium_flame_tank_default = {
