@@ -761,7 +761,6 @@ generic_medium_tanks = {
 					any_of = {
 						auto_loader
 						secondary_turret_small_cannon
-						smoke_launchers
 					}
 				}
 				special_type_slot_4 = {
