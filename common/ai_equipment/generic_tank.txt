@@ -989,7 +989,6 @@ generic_medium_tanks = {
 					any_of = {
 						auto_loader
 						secondary_turret_small_cannon
-						smoke_launchers
 					}
 				}
 				special_type_slot_4 = {
@@ -1016,6 +1015,10 @@ generic_medium_tanks = {
 					modifier = {
 						add = 5
 						num_of_military_factories > 120
+					}
+					modifier = {
+						add = 3
+						num_of_military_factories > 180
 					}
 				}
 			}
