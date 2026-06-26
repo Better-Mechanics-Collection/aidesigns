@@ -3294,10 +3294,10 @@ generic_heavy_tank_destroyer = {
 			upgrades = {
 				tank_nsb_engine_upgrade = 0
 				tank_nsb_armor_upgrade = {
-					base = 0
+					base = 4
 					modifier = {
-						add = 4
-						num_of_military_factories > 60
+						add = 5
+						num_of_military_factories > 45
 					}
 				}
 			}
@@ -3342,21 +3342,33 @@ generic_heavy_tank_destroyer = {
 			}
 			upgrades = {
 				tank_nsb_engine_upgrade = {
-					base = 0
+					base = 4
 					modifier = {
-						add = 4
-						num_of_military_factories > 60
-					}
-				}
-				tank_nsb_armor_upgrade = {
-					base = 0
-					modifier = {
-						add = 4
-						num_of_military_factories > 60
+						add = 5
+						num_of_military_factories > 45
 					}
 					modifier = {
 						add = 5
-						num_of_military_factories > 120
+						num_of_military_factories > 90
+					}
+					modifier = {
+						add = 3
+						num_of_military_factories > 135
+					}
+				}
+				tank_nsb_armor_upgrade = {
+					base = 4
+					modifier = {
+						add = 5
+						num_of_military_factories > 45
+					}
+					modifier = {
+						add = 5
+						num_of_military_factories > 90
+					}
+					modifier = {
+						add = 3
+						num_of_military_factories > 135
 					}
 				}
 			}
@@ -3392,28 +3404,40 @@ generic_heavy_tank_destroyer = {
 			}
 			upgrades = {
 				tank_nsb_engine_upgrade = {
-					base = 0
+					base = 4
 					modifier = {
-						add = 4
-						num_of_military_factories > 60
+						add = 5
+						num_of_military_factories > 45
 					}
 					modifier = {
 						add = 5
-						num_of_military_factories > 120
+						num_of_military_factories > 90
+					}
+					modifier = {
+						add = 3
+						num_of_military_factories > 135
+					}
+					modifier = {
+						add = 3
+						num_of_military_factories > 180
 					}
 				}
 				tank_nsb_armor_upgrade = {
-					base = 0
+					base = 4
 					modifier = {
-						add = 4
-						num_of_military_factories > 60
+						add = 5
+						num_of_military_factories > 45
 					}
 					modifier = {
 						add = 5
-						num_of_military_factories > 120
+						num_of_military_factories > 90
 					}
 					modifier = {
-						add = 5
+						add = 3
+						num_of_military_factories > 135
+					}
+					modifier = {
+						add = 3
 						num_of_military_factories > 180
 					}
 				}
