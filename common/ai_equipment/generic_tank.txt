@@ -1650,8 +1650,8 @@ generic_medium_tank_anti_air = {
 				engine_type_slot = tank_gasoline_engine
 				special_type_slot_1 = wet_ammo_storage
 				special_type_slot_2 = additional_machine_guns
-				special_type_slot_3 = empty
-				special_type_slot_4 = empty
+				special_type_slot_3 = expanded_fuel_tank
+				special_type_slot_4 = expanded_fuel_tank
 			}
 
 			upgrades = {
@@ -1686,8 +1686,8 @@ generic_medium_tank_anti_air = {
 				engine_type_slot = tank_gasoline_engine
 				special_type_slot_1 = wet_ammo_storage
 				special_type_slot_2 = additional_machine_guns
-				special_type_slot_3 = empty
-				special_type_slot_4 = empty
+				special_type_slot_3 = expanded_fuel_tank
+				special_type_slot_4 = expanded_fuel_tank
 			}
 
 			upgrades = {
