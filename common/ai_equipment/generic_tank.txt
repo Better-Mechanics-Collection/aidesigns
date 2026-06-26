@@ -824,13 +824,7 @@ generic_medium_tanks = {
 			match_value = 3000
 			type = medium_tank_chassis_2
 			modules = {
-				main_armament_slot = { 
-					any_of = { 
-						tank_medium_cannon 
-						tank_high_velocity_cannon 
-						tank_small_cannon_2 
-					} 
-				}
+				main_armament_slot = tank_medium_cannon
 				turret_type_slot = tank_medium_three_man_tank_turret
 				suspension_type_slot = tank_christie_suspension
 				armor_type_slot = tank_welded_armor
@@ -846,7 +840,6 @@ generic_medium_tanks = {
 					any_of = {
 						auto_loader
 						secondary_turret_hmg
-						additional_machine_guns
 					}
 				}
 				special_type_slot_4 = {
