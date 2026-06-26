@@ -1490,18 +1490,78 @@ generic_medium_tank_artillery = {
 				has_tech = advanced_medium_tank_chassis
 				factor = 0 #let's not waste XP here
 			}
+			modifier = {
+				has_tech = artillery3
+				factor = 0
+			}
 		}
 
 		target_variant = {
 			match_value = 3000
 			type = medium_tank_artillery_chassis_2
 			modules = {
-				main_armament_slot = { 
-					any_of = {
-						tank_medium_howitzer_2
-						tank_medium_howitzer
-					} 
+				main_armament_slot = tank_medium_howitzer
+				turret_type_slot = tank_medium_fixed_superstructure_turret
+				suspension_type_slot = tank_christie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+				special_type_slot_1 = wet_ammo_storage
+				special_type_slot_2 = smoke_launchers
+				special_type_slot_3 = secondary_turret_hmg
+				special_type_slot_4 = secondary_turret_hmg
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = {
+					base = 4
+					modifier = {
+						add = 5
+						has_doctrine = new_mobile_warfare
+					}
 				}
+				tank_nsb_armor_upgrade = {
+					base = 0
+					modifier = {
+						add = 4
+						num_of_military_factories > 60
+					}
+					modifier = {
+						add = 5
+						num_of_military_factories > 120
+					}
+					modifier = {
+						add = 5
+						num_of_military_factories > 180
+					}
+					modifier = {
+						add = 3
+						num_of_military_factories > 240
+					}
+				}
+			}
+		}
+
+		requirements = {}
+		allowed_modules = {}
+	}
+
+	improved_medium_tank_artillery_default_medium_howitzer_2 = {
+		priority = {
+			factor = 10
+			modifier = { 
+				has_tech = advanced_medium_tank_chassis
+				factor = 0 #let's not waste XP here
+			}
+			modifier = {
+				NOT = { has_tech = artillery3 }
+				factor = 0
+			}
+		}
+
+		target_variant = {
+			match_value = 3000
+			type = medium_tank_artillery_chassis_2
+			modules = {
+				main_armament_slot = tank_medium_howitzer_2
 				turret_type_slot = tank_medium_fixed_superstructure_turret
 				suspension_type_slot = tank_christie_suspension
 				armor_type_slot = tank_riveted_armor
