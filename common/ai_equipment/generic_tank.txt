@@ -3103,24 +3103,14 @@ generic_heavy_tanks = {
 			match_value = 3000
 			type = heavy_tank_chassis_2
 			modules = {
-				main_armament_slot = { 
-					any_of = { 
-						tank_heavy_cannon_2 
-						tank_high_velocity_cannon_2 
-					} 
-				}
+				main_armament_slot = tank_heavy_cannon_2
 				turret_type_slot = tank_heavy_three_man_tank_turret
 				suspension_type_slot = tank_torsion_bar_suspension
 				armor_type_slot = tank_welded_armor
 				engine_type_slot = tank_diesel_engine
 				special_type_slot_1 = tank_radio_module
 				special_type_slot_2 = secondary_turret_small_cannon
-				special_type_slot_3 = {
-					any_of = {
-						auto_loader
-						secondary_turret_small_cannon
-					}
-				}
+				special_type_slot_3 = secondary_turret_small_cannon
 				special_type_slot_4 = {
 					any_of = {
 						easy_maintenance
