@@ -1511,7 +1511,6 @@ generic_medium_tank_artillery = {
 				special_type_slot_3 = secondary_turret_hmg
 				special_type_slot_4 = secondary_turret_hmg
 			}
-
 			upgrades = {
 				tank_nsb_engine_upgrade = {
 					base = 4
@@ -1520,7 +1519,25 @@ generic_medium_tank_artillery = {
 						has_doctrine = new_mobile_warfare
 					}
 				}
-				tank_nsb_armor_upgrade = 0
+				tank_nsb_armor_upgrade = {
+					base = 0
+					modifier = {
+						add = 4
+						num_of_military_factories > 60
+					}
+					modifier = {
+						add = 5
+						num_of_military_factories > 120
+					}
+					modifier = {
+						add = 5
+						num_of_military_factories > 180
+					}
+					modifier = {
+						add = 3
+						num_of_military_factories > 240
+					}
+				}
 			}
 		}
 
@@ -1547,7 +1564,6 @@ generic_medium_tank_artillery = {
 				special_type_slot_3 = secondary_turret_hmg
 				special_type_slot_4 = secondary_turret_hmg
 			}
-
 			upgrades = {
 				tank_nsb_engine_upgrade = {
 					base = 9
@@ -1556,7 +1572,29 @@ generic_medium_tank_artillery = {
 						has_doctrine = new_mobile_warfare
 					}
 				}
-				tank_nsb_armor_upgrade = 0
+				tank_nsb_armor_upgrade = {
+					base = 0
+					modifier = {
+						add = 4
+						num_of_military_factories > 60
+					}
+					modifier = {
+						add = 5
+						num_of_military_factories > 120
+					}
+					modifier = {
+						add = 5
+						num_of_military_factories > 180
+					}
+					modifier = {
+						add = 3
+						num_of_military_factories > 240
+					}
+					modifier = {
+						add = 3
+						num_of_military_factories > 300
+					}
+				}
 			}
 		}
 
