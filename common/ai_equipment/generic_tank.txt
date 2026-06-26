@@ -1217,6 +1217,10 @@ generic_medium_tanks = {
 						add = 3
 						num_of_military_factories > 180
 					}
+					modifier = {
+						add = 3
+						num_of_military_factories > 240
+					}
 				}
 			}
 		}
@@ -1283,6 +1287,10 @@ generic_medium_tanks = {
 					modifier = {
 						add = 3
 						num_of_military_factories > 180
+					}
+					modifier = {
+						add = 3
+						num_of_military_factories > 240
 					}
 				}
 			}
@@ -1355,6 +1363,14 @@ generic_medium_tanks = {
 					modifier = {
 						add = 5
 						num_of_military_factories > 180
+					}
+					modifier = {
+						add = 3
+						num_of_military_factories > 240
+					}
+					modifier = {
+						add = 3
+						num_of_military_factories > 300
 					}
 				}
 			}
