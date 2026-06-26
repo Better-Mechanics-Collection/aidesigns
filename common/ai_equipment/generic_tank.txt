@@ -3080,7 +3080,7 @@ generic_heavy_tanks = {
 					base = 4
 					modifier = {
 						add = 5
-						num_of_military_factories > 60
+						num_of_military_factories > 75
 					}
 				}
 			}
@@ -3123,22 +3123,30 @@ generic_heavy_tanks = {
 					base = 4
 					modifier = {
 						add = 5
-						num_of_military_factories > 60
+						num_of_military_factories > 75
 					}
 					modifier = {
 						add = 5
-						num_of_military_factories > 120
+						num_of_military_factories > 150
+					}
+					modifier = {
+						add = 3
+						num_of_military_factories > 225
 					}
 				}
 				tank_nsb_armor_upgrade = {
 					base = 4
 					modifier = {
 						add = 5
-						num_of_military_factories > 60
+						num_of_military_factories > 75
 					}
 					modifier = {
 						add = 5
-						num_of_military_factories > 120
+						num_of_military_factories > 150
+					}
+					modifier = {
+						add = 3
+						num_of_military_factories > 225
 					}
 				}
 			}
@@ -3182,38 +3190,38 @@ generic_heavy_tanks = {
 					base = 4
 					modifier = {
 						add = 5
-						num_of_military_factories > 60
+						num_of_military_factories > 75
 					}
 					modifier = {
 						add = 5
-						num_of_military_factories > 120
+						num_of_military_factories > 150
 					}
 					modifier = {
 						add = 3
-						num_of_military_factories > 180
+						num_of_military_factories > 225
 					}
 					modifier = {
 						add = 3
-						num_of_military_factories > 240
+						num_of_military_factories > 300
 					}
 				}
 				tank_nsb_armor_upgrade = {
 					base = 4
 					modifier = {
 						add = 5
-						num_of_military_factories > 60
+						num_of_military_factories > 75
 					}
 					modifier = {
 						add = 5
-						num_of_military_factories > 120
+						num_of_military_factories > 150
 					}
 					modifier = {
 						add = 3
-						num_of_military_factories > 180
+						num_of_military_factories > 225
 					}
 					modifier = {
 						add = 3
-						num_of_military_factories > 240
+						num_of_military_factories > 300
 					}
 				}
 			}
