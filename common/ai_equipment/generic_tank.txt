@@ -1182,7 +1182,6 @@ generic_medium_tanks = {
 					any_of = {
 						auto_loader
 						secondary_turret_small_cannon
-						smoke_launchers
 					}
 				}
 				special_type_slot_4 = {
@@ -1250,7 +1249,6 @@ generic_medium_tanks = {
 					any_of = {
 						auto_loader
 						secondary_turret_hmg
-						additional_machine_guns
 					}
 				}
 				special_type_slot_4 = {
@@ -1323,7 +1321,6 @@ generic_medium_tanks = {
 					any_of = {
 						auto_loader
 						secondary_turret_hmg
-						additional_machine_guns
 					}
 				}
 				special_type_slot_4 = {
